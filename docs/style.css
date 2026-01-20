@@ -16,8 +16,18 @@ main {
     max-width: 800px;
     margin: 2rem auto;
     padding: 1.5rem;
-    background: white;
+    background-color: white;
     border-radius: 8px;
+}
+
+.profile-image {
+    display: block;
+    margin: 1.5rem auto;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 footer {
@@ -34,13 +44,4 @@ a {
 
 a:hover {
     text-decoration: underline;
-}
-.profile-image {
-    display: block;
-    margin: 1.5rem auto;
-    width: 400px;
-    height: 400px;
-    object-fit: cover;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
